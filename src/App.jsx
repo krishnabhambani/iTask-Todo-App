@@ -12,7 +12,7 @@ function App() {
   // const [count, setCount] = useState(0)
   const [todo, setTodo] = useState('')
   const [todos, setTodos] = useState([])
-  const [showFinished, setshowFinished] =useState(true);
+  const [showFinished, setshowFinished] =useState(false);
 
   useEffect(()=>{
     let todos=JSON.parse(localStorage.getItem("todos")) 
